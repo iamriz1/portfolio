@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+		<link rel="stylesheet" href="index.css">
+		<title>Rizwan</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div id="logo">
+				<img src="rlogo.png">
+			</div>
+			<div id="nav">
+				<a href="#hero" class="nav-item">Home</a>
+				<a href="#about" class="nav-item">About</a>
+				<a href="#resume" class="nav-item">Contact</a>
+			</div>
+		</header>
+		<!-- Header -->
+
+		<!-- Body -->
+		<div id="body">
+			<div id="hero">
+				<p id="hero-text" data-aos="fade-up">Rizwan</p>
+				<p id="intro">Hi, I am a User Interface designer and a front end developer.</p>
+			</div>
+			<!-- About me-->
+			<div id="about">
+				<div id="mypic"><img class="mypic" src="my pic 2.jpg"></div>
+				<p id="about-intro">Hi! My name is Rizwan Ahmed. I am an IT student who works as a user interace designer and can also work as a front end developer.</p>
+				<div id="resume">
+					<p>Want to know more? Download my <a id="resume-link" target="_blank" href="New resume.pdf"> resume</a>.</p>
+				</div>
+				<div><p id="contact">Or you can mail me at rizvercetti@gmail.com</p></div>
+				<div id="logos">
+					<a target="_blank" href="https://www.facebook.com/Riz.One96">
+						<img class="socials" src="fblogo2.png">
+					</a>
+					<a target="_blank" href="https://www.linkedin.com/in/iamriz1">
+						<img class="socials" src="linkedin-logo1.png">
+					</a>
+				</div>	
+			</div>
+		</div>
+		<!-- Body -->
+
+		<!-- Footer -->
+		<footer>
+
+		</footer>
+		<!-- Footer -->
+	</body>
+</html>

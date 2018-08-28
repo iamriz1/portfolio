@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+header{
+	margin: 0;
+	padding: 0 1%;
+	width: 98%;
+	border-bottom: 1px solid #efefef;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #333;
+}
+a{
+	text-decoration: none;
+	color: #929293;
+}
+#logo, #nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 400;
+}
+#logo img{
+	height: 40px;
+	width: 40px;
+	padding: 5px 0;
+}
+.nav-item{
+	margin: 0 1vw;
+}
+.nav-item:hover{
+	text-decoration: underline;
+}
+#about{
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+}
+#about-text{
+	color: #fff;
+	font-size: 100px;
+	font-family: "Segoe UI";
+	margin: 0;
+	padding: 0;
+}
+#about-intro{
+	color: #929293;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	padding: 25px 300px 25px 300px;
+	margin: 30px 60px 30px 60px;
+	text-align: justify;
+}
+#resume{
+	color: #929293;
+	font-family: "Segoe UI";
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#resume-link{
+	color:#000;
+}
+#resume-link:hover{
+	text-decoration: underline;
+}
+.mypic{
+	height: 300px;
+	width: 300px;
+	border: 9px solid;
+	border-radius: 50%;
+	border-color: #dce1ea;
+}
+#mypic{
+	margin: 60px 50px 10px 50px;
+}
+#body{
+	background: url("snow.jpg") center/cover no-repeat fixed;
+}

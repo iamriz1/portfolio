@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+	overflow-x: hidden;
+
+}
+header{
+	margin: 0;
+	padding: 0 1%;
+	width: 98%;
+	border-bottom: 1px solid #efefef;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: #333;
+}
+a{
+	text-decoration: none;
+	color: #929293;
+}
+#logo, #nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: 400;
+	color: #929293;
+}
+#logo img{
+	height: 40px;
+	width: 40px;
+	padding: 5px 0;
+}
+.nav-item{
+	margin: 0 1vw;
+}
+.nav-item:hover{
+	text-decoration: underline;
+}
+#hero{
+	background: url("background2.jpg") center/cover no-repeat fixed;
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#hero-text{
+	color: #fff;
+	font-size: 20px;
+	font-family: "Raleway";
+	margin: 0;
+}
+#intro{
+	color: #fff;
+	font-family: "Raleway";
+	font-size: 25px;
+	margin: 0;
+}
+#about{
+	background: url("snow5.jpg") center/cover no-repeat fixed;
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	overscroll-behaviour-y: none;
+}
+#about-intro{
+	color: #929293;
+	font-family: "Raleway";
+	font-size: 25px;
+	padding: 50px 300px 25px 300px;
+	margin: 70px 100px 30px 100px;
+	text-align: justify;
+
+}
+.mypic{
+	height: 300px;
+	width: 300px;
+	border: 9px solid;
+	border-radius: 50%;
+	border-color: #dce1ea;
+	margin-top: 90px;
+	margin-bottom: 50px;
+
+}
+#mypic{
+	margin: 60px 50px 10px 50px;
+
+}
+#resume{
+	color: #929293;
+	font-family: "Raleway";
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+#resume-link{
+	color:#000;
+	margin: 0;
+	padding: 0;
+}
+#resume-link:hover{
+	text-decoration: underline;
+}
